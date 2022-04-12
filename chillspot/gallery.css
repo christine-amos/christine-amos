@@ -1,0 +1,167 @@
+*
+button{
+    background:#fb2525;
+    color:#fff;
+    border:none;
+    outline:none;
+    border-radius:20px;
+    padding:0;
+    width: 15%;
+    height: 40px;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: ffc107;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+font-size: 16px;
+}
+
+.loginbox input{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:rgb(226, 15, 15);
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#fb2525 ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb2525;
+}
+
+.loginbox a:hover{
+    color: #ffc107;
+}
+#container{
+    margin-left: 200px;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+#sliderbox{
+    position: relative;
+    width: 4600px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img{
+float: left;
+}
+
+@keyframes slideranimation{
+
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -800px;
+    }
+    45%
+    {
+        left: -800px;
+    }
+    50%
+    {
+        left: -1600px;
+    }
+    70%
+    {
+        left: -1600px;
+    }
+    75%
+    {
+        left: -2400px;
+    }
+}
+.nav{
+    width:100%;
+    background:#fb2525;
+    height: 70px;
+    border-radius: 30px;
+    width: 80%;
+    }
+    ul{
+    list-style:none;
+    paddind:0;
+    margin:0;
+    position:center;
+    background :yellow;
+    }
+    ul li{
+    float:left;
+    margin-top:8px;
+    margin-left:25px ;
+    padding:10px;
+    }
+    ul li a{
+    width:150px;
+    display:block;
+    text-decoration:none;
+    font-size:25px;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    font-weight:bold;
+    }
+    a:hover{
+    background:yellowgreen;
+    }
+    ul li ul{
+    background:none;
+    border-radius:20px;
+    }
+    
+     
+    ul li ul li{
+    float:none;
+    }
+    ul li ul{
+    display:none;
+    }
+    ul li:hover ul{
+    display:block;}

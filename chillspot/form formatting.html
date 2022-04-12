@@ -1,0 +1,44 @@
+<html> 
+   <head>
+       <title>forms formatting</title>
+       <body>
+        <style type="text/css">
+
+body{
+    border-radius: 10px;
+    background-color:greenyellow;
+    color: black;
+}
+.form{
+background: black;
+}
+        </style>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">second name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="phone number">phone number:</label><br>
+            <input type="number" id="phone number" name="phone number"><br><br>
+            <input type="submit" value="Submit">
+            <div>Gender</div>
+            <input type="radio" id="male" name="male" value="male">
+            <label for="html">male</label><br>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="html">female</label><br>
+            <hr>
+            <div>preferences</div>
+            
+            <input type="checkbox" id="exbitions" name="exbitions" value="exbitions">
+            <label for="exbitions">exbitions</label><br>
+            <input type="checkbox" id="paper presentations" name="paper presentations" value="paper presentations">
+            <label for="paper presentations">paper presentations</label><br>
+            <input type="checkbox" id="innovations" name="innovations" value="innovations">
+            <label for="innovations">innovations</label><br><br>
+
+            <input type="submit" id="submit">
+            <input type="reset" is="reset">
+          </form>
+       </body>
+   </head> 
+</html>
